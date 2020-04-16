@@ -9,6 +9,8 @@ body {
     background-position: 201px 0px;
 }
 
+
+
 @keyframes appearFromUp {
   from {
     transform: translateY(-20px);
@@ -92,17 +94,25 @@ body {
   animation-delay: 1.9s;
 }
 
+hr {
+  border: none;
+  height: 1px;
+  color: #555; /* old IE */
+  background-color: #555; /* Modern Browsers */
+}
 
 h1 {
   font-size: 40px;
 }
 
 h2 {
-  font-size: 35px;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 h3 {
-  font-size: 30px;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 p {
@@ -116,7 +126,11 @@ p {
   }
 
   h2 {
-    font-size: 43px;
+    font-size: 35px;
+  }
+
+  h3 {
+    font-size: 30px;
   }
   
   p {
@@ -164,6 +178,8 @@ p {
 
 #content {
   background: #ffffff;
+  background-image: url("../img/white-triangles-background.png");
+  background-size: 400px;
 }
 
 #mail a {
