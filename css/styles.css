@@ -9,6 +9,13 @@ body {
     background-position: 201px 0px;
 }
 
+#darkmode-switch {
+  color: white;
+  position:absolute;
+  z-index: 300;
+  right:40px;
+  top:40px;
+}
 
 
 @keyframes appearFromUp {
@@ -188,9 +195,34 @@ p {
   transition: .2s;
 }
 
+
+a {
+  text-decoration: none;
+  color: rgb(3, 129, 151);
+  transition: .2s;
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(95, 220, 241);
+}
+
+
 #mail a:hover {
   text-decoration: none;
   color: rgb(160, 238, 252);
 }
 
 
+
+
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
+}

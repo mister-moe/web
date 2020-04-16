@@ -7,11 +7,16 @@
     <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> 
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/dark-mode.css">
     <title>Mister's website</title>
     <link rel="icon" href="img/slime.png">
 </head>
 <body>
-    <div id="main" class="container fill">
+    <div id="darkmode-switch" class="custom-control custom-switch">
+        <input type="checkbox" class="custom-control-input" id="darkSwitch">
+        <label class="custom-control-label noselect" for="darkSwitch">Dark Mode</label>
+    </div>
+    <div id="main" class="container fill noselect">
         <div id="title" class="container-fluid h-50">
             <div class="row text-center h-100">
                 <div class="col">
@@ -126,5 +131,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src="js/animation.js"></script>
+    <script src="js/dark-mode-switch.js"></script>
 </body>
 </html>
