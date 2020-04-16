@@ -187,6 +187,7 @@ p {
   background: #ffffff;
   background-image: url("../img/white-triangles-background.png");
   background-size: 400px;
+  transition: .2s;
 }
 
 #mail a {
