@@ -6,7 +6,7 @@ body {
     background: #ffffff;
     background-image: url("../img/triangles-background.png");
     background-size: 500px;
-    background-position: 201px 0px;
+    background-position: 50% 0;
 }
 
 #darkmode-switch {
